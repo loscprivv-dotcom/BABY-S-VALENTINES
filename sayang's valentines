@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Valentine 💖</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f0;
+        }
+        h1 {
+            color: #ff3399;
+        }
+        .big-yes {
+            font-size: 30px;
+            background-color: #ff0066;
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .no-btn {
+            font-size: 20px;
+            background-color: gray;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        img {
+            width: 200px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+        .story {
+            width: 70%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Happy Valentine's Day Sayang 💕</h1>
+
+<h2>Will you be my Valentine? 💌</h2>
+
+<button class="big-yes" onclick="alert('YAYYYY I LOVE YOU ❤️')">YES 💖</button>
+<button class="no-btn" onclick="alert('Error ❌ Only YES allowed 😘')">NO 😜</button>
+
+<br><br>
+
+<div class="story">
+    <h2>Our Love Story 💞</h2>
+    <p>
+        From the first time we met, my heart knew you were special.
+        Every laugh, every smile, every moment with you
+        makes my life brighter and happier.
+        Thank you for being my love, my best friend, my everything.
+        I love you more every single day 💕
+    </p>
+</div>
+
+<h2>Our Memories 📸</h2>
+
+<img src="photo1.jpg">
+<img src="photo2.jpg">
+<img src="photo3.jpg">
+<img src="photo4.jpg">
+<img src="photo5.jpg">
+<img src="photo6.jpg">
+
+<br><br>
+
+<h2>Our Song 🎵</h2>
+
+<audio controls autoplay loop>
+  <source src="song.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+</html>
